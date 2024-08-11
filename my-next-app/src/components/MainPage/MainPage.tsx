@@ -1,11 +1,11 @@
 import { useContext, useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { Data } from "../../../interface";
-import useLocalStorage from "@/hooks/useLocalStorage";
-import SearchBar from "@/components/SearchBar/SearchBar";
-import ListOfPeople from "@/components/ListOfPeople/ListOfPeople";
-import FlyoutComponent from "@/components/FlyoutComponent/FlyoutComponent";
-import DarkLightThemeContext from "@/context/LightDarkThemeContext";
+import useLocalStorage from "../../hooks/useLocalStorage";
+import SearchBar from "../SearchBar/SearchBar";
+import ListOfPeople from "../ListOfPeople/ListOfPeople";
+import FlyoutComponent from "../FlyoutComponent/FlyoutComponent";
+import DarkLightThemeContext from "../../context/LightDarkThemeContext";
 import { useGetAllPeopleQuery } from "../../../store/thunks/starWarsApi";
 import styles from "../../styles/MainPage.module.css";
 
