@@ -1,0 +1,41 @@
+.favoriteWrapper {
+  width: 50%;
+  border: 1px solid gray;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+.favoriteWrapperTools {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.toolsButton {
+  font-size: 14px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.favoriteItemsList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.favoriteItemsList p {
+  border: 1px solid gray;
+  width: 100%;
+  text-align: left;
+  padding: 6px;
+  margin: 0;
+  border-radius: 4px;
+}
