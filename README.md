@@ -1,1 +1,0 @@
-# c00b3r-react-class-components

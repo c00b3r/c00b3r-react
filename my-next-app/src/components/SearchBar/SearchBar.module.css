@@ -1,0 +1,19 @@
+.searchWrapper {
+  display: flex;
+  gap: 20px;
+  align-self: center;
+  height: 40%;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.searchInput {
+  width: 250px;
+  height: 30px;
+  align-self: center;
+  outline: none;
+}
+
+.searchButton {
+  height: 20%;
+}
