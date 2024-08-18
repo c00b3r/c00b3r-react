@@ -1,0 +1,30 @@
+.main-container {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  gap: 8px;
+}
+
+.data-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.data-item {
+  border: 1px solid black;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.data-item_name {
+  font-weight: bold;
+  text-align: center;
+}
