@@ -1,16 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-
-interface FormDataState {
-  name: string;
-  age: number;
-  email: string;
-  password: string;
-  acceptPassword: string;
-  gender: string;
-  accept: boolean;
-  picture: string;
-  country: string;
-}
+import { FormDataState } from "../../interface";
 
 const initialState: FormDataState[] = [];
 

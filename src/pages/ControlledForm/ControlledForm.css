@@ -5,6 +5,9 @@ form {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background-color: #3a2e2e;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 div {
@@ -33,7 +36,8 @@ input[type="file"] {
 
 p {
   color: #e74c3c;
-  font-size: 0.875rem;
+  font-size: 12px;
+  width: 100%;
   margin-top: 5px;
 }
 
