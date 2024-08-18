@@ -57,6 +57,7 @@ export default function ControlledForm() {
     formState: { errors },
   } = useForm({
     resolver: yupResolver(validationSchema),
+    mode: "onChange",
   });
 
   const onSubmit = (data: FormData) => {
